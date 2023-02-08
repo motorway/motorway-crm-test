@@ -5,11 +5,40 @@ The task is to replicte this email design and for it to be tested in Apple Mail,
 ![Welcome email](https://user-images.githubusercontent.com/548526/216968020-f35546b2-f596-46fd-978a-f00fd7e426ec.png)
 
 ## Images
-All the images in the images folder are available here: 
+All the images in the images folder are available here:
+
+`https://motorway.s3.eu-west-2.amazonaws.com/email-assets/crm-test/images/{file name}`
+
+All the fonts in the fonts folder are available here:
+
+`https://motorway.s3.eu-west-2.amazonaws.com/email-assets/crm-test/fonts/{file name}`
+
+## Outcome
+A html file containing the HTML email
+
+## Time
+2/3 hours, please let us know if you spend more time as to make it a fair comparison
+
+## Fonts
+Body copy:
+```
+font-family: New Transport;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+```
+Section headers:
+```
+font-family: New Transport;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+```
 
 ## Marking critera 
 - Works across Apple Mail, Gmail and Outlook
 - Responsive for email clients that support it
+- Feel free to use any tooling you feel neccessary and if not included in the repo please add an explanation in the README
 - Dark mode support for email clients that support it
 ![Welcome email (dark)](https://user-images.githubusercontent.com/548526/216969660-f89f7abf-0505-40c8-9e54-76e35401dcdc.png)
 
